@@ -1,4 +1,4 @@
-### What should the naming convention look like?
+## What should the naming convention look like?
 A02F
 
 A: Brand Specific prefix
@@ -11,11 +11,22 @@ F: Purpose, in this case an F-Crimp
 ### The reality is all crimp names should be something like 
 AA0216FC
 
-Of course there are many ways to solve this issue but so far naming is deeply inconsistent. 
+AA: Brand Specific prefix
 
-### Crimp tool naming conventions are not universal across the industry; instead, they are primarily based on the specific connector type, wire gauge (AWG), and manufacturer's part numbering system. Manufacturers dictate the required tool for their specific connectors to ensure a reliable connection and maintain warranties. 
+02: Referenece to the AWG of the terminal
+
+16: Referenece to the AWG of the terminal
+
+FC: Purpose, in this case an F-Crimp
+
+Of course there are many ways to solve this issue but so far naming is deeply inconsistent. See "Crimp Tool Jaws Opinion.md"
+
+## Gemini Q&A: Crimp Tool Naming Convention
+
+### Crimp tool naming conventions are not universal across the industry; 
+instead, they are primarily based on the specific connector type, wire gauge (AWG), and manufacturer's part numbering system. Manufacturers dictate the required tool for their specific connectors to ensure a reliable connection and maintain warranties.
+
 ### Key elements that influence naming and identification include:
-
 
   Connector/Terminal Type: Tools are often named for the specific connectors they are designed to crimp, such as:
      D-Sub crimpers: Used for attaching pins to individual wires for D-Sub connectors.
@@ -36,4 +47,5 @@ Of course there are many ways to solve this issue but so far naming is deeply in
   Manufacturer Part Numbers/Military Specifications: High-precision tools, especially in aerospace and military applications, use standardized military specifications (Mil-Spec) or proprietary part numbers.
      Mil-Spec examples: M22520/1-04 (tool number) or M22520/44-01 (GMT1090 hand crimp tool). These numbers often correspond to specific, highly regulated applications and are tied to a particular manufacturer's tool. 
 
-### In essence, there is no single, universal naming convention. To find the correct tool, one must match the connector manufacturer's required tool number, the wire gauge, and the terminal's physical characteristics
+### In essence, there is no single, universal naming convention. 
+To find the correct tool, one must match the connector manufacturer's required tool number, the wire gauge, and the terminal's physical characteristics
